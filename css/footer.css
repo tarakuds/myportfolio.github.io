@@ -1,0 +1,31 @@
+footer {
+  background-color: rgba(127, 134, 134, 0.8);
+  font-family: monospace;
+}
+
+footer div {
+  display: inline;
+  padding: 2% 5%;
+  max-width: 100%;
+}
+.footer-label {
+  font-family: serif;
+  text-shadow: aliceblue;
+  color: black;
+  font-size: x-large;
+  font-weight: bolder;
+}
+@media (min-width: 350px) {
+  #follow {
+    margin-right: 20%;
+  }
+
+  .socials {
+    margin-left: 25%;
+  }
+}
+@media (min-width: 768px) {
+  .socials {
+    margin-left: 43%;
+  }
+}

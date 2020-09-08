@@ -1,0 +1,32 @@
+/* #name,
+#nav {
+  margin: 2% 8%;
+}
+#name {
+  padding-right: 40%;
+} */
+
+.avartar {
+  margin: 3% 0;
+  padding: 0% 15%;
+  border-radius: 50%;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(22, 216, 223);
+  padding: 2% 5%;
+  margin: 2%;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: white;
+  /* padding: 2% 5%;
+    margin: 2%;
+    border-radius: 10px; */
+}
+
+#description,
+#description pre {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

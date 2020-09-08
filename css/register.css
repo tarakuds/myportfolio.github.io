@@ -1,0 +1,99 @@
+main {
+  background-color: rgb(22, 216, 223);
+  margin-top: 1%;
+  padding: 5% 5%;
+}
+.container {
+  background-color: whitesmoke;
+  width: 100%;
+  padding: 3% 25%;
+}
+
+input.field {
+  width: 100%;
+  padding: 2% 5%;
+}
+.field-description {
+  margin: 5% 0;
+}
+button {
+  background-color: rgb(22, 216, 223);
+  width: 40%;
+  padding: 2% 5%;
+}
+#checkbox {
+  /* background-color: blue; */
+  width: 100%;
+  margin: 3% 0%;
+  padding: 1% 0%;
+  display: inline-flex;
+}
+h1,
+p.center {
+  text-align: center;
+}
+#checkbox label {
+  margin-left: 3%;
+}
+
+@media (min-width: 400px) {
+  hr {
+    width: 100%;
+  }
+  .flex {
+    font-weight: 100;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 768px) {
+  hr {
+    width: 50%;
+  }
+  .flex {
+    font-weight: 600;
+    text-decoration: none;
+  }
+}
+/* .input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  min-width: 40px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+} */
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  color: rgb(22, 216, 223);
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5%;
+  text-align: right;
+}
